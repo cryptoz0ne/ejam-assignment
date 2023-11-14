@@ -306,6 +306,7 @@ body {
   margin-bottom: 0;
   margin-left: 16px;
   line-height: 1.4;
+  flex: 1;
 }
 
 .purchase-save .save-detail span {
@@ -470,6 +471,12 @@ body {
     transform: scale(1);
 }
 
+@media screen and (max-width: 1399px) {
+  .free-shipping {
+    padding: 8px;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .header .container {
     display: flex;
@@ -581,6 +588,7 @@ body {
   }
 
   .free-shipping {
+    padding: 8px 16px;
     justify-content: space-around !important;
     margin-bottom: 12px;
   }
@@ -595,6 +603,7 @@ body {
 
   .no-thanks {
     font-size: 12px;
+    height: 17px;
   }
 
   .product-guarantee {
@@ -663,6 +672,10 @@ body {
   .checkout-step {
     flex-direction: column;
     gap: 10px;
+  }
+
+  .checkout-step .step-marker {
+    border-width: 1px;
   }
 
   .checkout-step p span:first-child {
