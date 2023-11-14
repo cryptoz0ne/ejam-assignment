@@ -326,6 +326,7 @@ body {
   font-size: 20px;
   line-height: 1.366;
   font-weight: 700;
+  min-width: 179px;
 }
 
 .free-shipping {
@@ -727,10 +728,6 @@ body {
   .product-stock + .stock-description {
     display: block;
     margin: 16px 0 0;
-  }
-
-  .claim-button span {
-    min-width: 179px;
   }
 
   .footer {
